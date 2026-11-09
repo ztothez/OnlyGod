@@ -1,0 +1,84 @@
+# ---- Python bytecode and caches ----
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.cache/
+
+# ---- Virtual environments (any common name) ----
+.venv/
+venv/
+env/
+ENV/
+.env/
+*env/
+*venv*/
+virtualenv/
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---- Packaging and build output ----
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+*.whl
+
+# ---- Tests and coverage ----
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+
+# ---- Secrets and local config (never commit these) ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets.*
+*.secret
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Editors and OS ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- OnlyGod specific ----
+# Output of: python onlygod.py --emit file.og > out.py
+out.py
+*.generated.py
+
+# ---- Logs, scratch and exports ----
+*.log
+scratch/
+tmp/
+*.pdf
+*.docx
+
+# ---- Personal files (never commit) ----
+*.ics
+*.vcf
+*.ical
+*.ifb
