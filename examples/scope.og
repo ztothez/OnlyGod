@@ -1,0 +1,17 @@
+# scope.og : each block has its own variables (nested scope)
+let x: int = 1;
+print x;            # 1
+
+{
+    let x: int = 2; # a new x, only inside this block
+    print x;        # 2
+    x = 3;
+    print x;        # 3
+}
+
+print x;            # 1 again, the outer x was never touched
+
+{
+    x = 10;         # no new 'let', so this changes the OUTER x
+}
+print x;            # 10

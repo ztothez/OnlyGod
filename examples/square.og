@@ -1,0 +1,5 @@
+# square.og : read a number and print its square
+let n: int = 0;
+print "Give me a number:";
+read n;
+print n * n;

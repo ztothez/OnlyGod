@@ -1,0 +1,2 @@
+# error_string.og : a string that is never closed
+print "hello;

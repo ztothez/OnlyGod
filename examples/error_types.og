@@ -1,0 +1,3 @@
+let age: int = "twenty";
+let price: float = 5;
+print "total: " + age;

@@ -1,0 +1,13 @@
+# factorial.og : a function, a loop and a recursive call
+fun fact(n: int): int {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * fact(n - 1);
+}
+
+let i: int = 1;
+while (i <= 5) {
+    print fact(i);
+    i = i + 1;
+}

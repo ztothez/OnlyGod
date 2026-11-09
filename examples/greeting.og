@@ -1,0 +1,9 @@
+# greeting.og : strings, a function with a parameter, and input
+fun greet(name: string): string {
+    return "Hello, " + name + "!";
+}
+
+let who: string = "";
+print "What is your name?";
+read who;
+print greet(who);

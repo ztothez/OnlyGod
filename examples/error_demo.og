@@ -1,0 +1,3 @@
+# error_demo.og : run this to see an OnlyGod error message
+let count: int = 1;
+print count + "5";
